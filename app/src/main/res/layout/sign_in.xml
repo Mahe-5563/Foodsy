@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/greentick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/img_tick"/>
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_tick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/email_id"
+        android:id="@+id/et_emailid"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_emailid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/til_pass">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tiet_password"
+            android:inputType="textPassword"
+            android:hint="@string/enter_password"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:layout_below="@id/til_pass"
+        android:layout_alignRight="@id/til_pass"
+        android:id="@+id/tv_forgotpass"
+        android:textColor="#D30000"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_forgotpass"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sign_in"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/btn_signin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signin"
+        android:text="@string/do_not_have_an_account"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/tv_account"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

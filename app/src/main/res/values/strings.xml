@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Foodsy - Appmerise</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="do_not_have_an_account">Do not have an Account?  <b>SIGN UP</b></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hi">Hi,</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_current_location">Enter Current Location</string>
+    <string name="enter_destination_location">Enter Destination Location</string>
+    <string name="dine_in">dine in</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="starters">Starters</string>
+    <string name="main_course">Main Course</string>
+    <string name="desserts">Desserts</string>
+    <string name="drinks">Drinks</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hotel_name">Hotel Name</string>
+    <string name="hotel_location">Hotel Location</string>
+    <string name="food_name">Food Name</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

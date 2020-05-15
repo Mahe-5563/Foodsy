@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type of restaurant"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="20sp"
+                        android:layout_marginStart="20dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:text="MORE"
+                        android:textSize="17sp"
+                        android:background="@null"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    tools:ignore="NestedWeights">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/foodsy_logo"
+                            android:scaleType="centerCrop"
+                            android:layout_marginRight="3dp"
+                            android:id="@+id/img_htl_left"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/img_htl_left"
+                            android:text="Hotel Name Left"
+                            android:layout_margin="10dp"
+                            android:textSize="17sp"
+                            android:id="@+id/tv_htl_left"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_htl_left"
+                            android:text="Genre of food"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tv_foodgen_left"/>
+
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_foodgen_left"
+                            android:rating="4"
+                            android:layout_margin="10dp"
+                            android:id="@+id/ratbar_restratingleft"
+                            style="@style/Base.Widget.AppCompat.RatingBar.Small"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/foodsy_logo"
+                            android:scaleType="centerCrop"
+                            android:layout_marginLeft="3dp"
+                            android:id="@+id/img_htl_right"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/img_htl_right"
+                            android:text="Hotel Name Right"
+                            android:layout_margin="10dp"
+                            android:textSize="17sp"
+                            android:id="@+id/tv_htl_right"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_htl_right"
+                            android:text="Genre of food"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/tv_foodgen_right"/>
+
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_foodgen_right"
+                            android:rating="4.5"
+                            android:layout_margin="10dp"
+                            android:id="@+id/ratbar_restratingright"
+                            style="@style/Base.Widget.AppCompat.RatingBar.Small"/>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

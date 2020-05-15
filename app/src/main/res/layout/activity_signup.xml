@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="239dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="11dp"
+        android:id="@+id/editText3" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="13dp"
+        android:id="@+id/editText4" />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="20dp"
+        android:background="@null"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/foodsy_logo"
+        android:id="@+id/circleImageView" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/circleImageView"
+        android:layout_alignEnd="@+id/circleImageView"
+        android:layout_alignRight="@+id/circleImageView"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:backgroundTint="@color/colorPrimary"/>
+
+</RelativeLayout>

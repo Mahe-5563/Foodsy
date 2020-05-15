@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/cv_img_hotels"
+                android:src="@drawable/foodsy"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOTEL NAME"
+                android:textSize="17sp"
+                android:layout_below="@id/cv_img_hotels"
+                android:layout_margin="10dp"
+                android:id="@+id/tv_hot_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel Location"
+                android:layout_below="@id/cv_img_hotels"
+                android:layout_toRightOf="@id/tv_hot_name"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:id="@+id/tv_hot_loc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel Genre"
+                android:layout_below="@id/tv_hot_name"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_hot_genre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETA: 20 mins"
+                android:layout_below="@id/tv_hot_loc"
+                android:layout_alignLeft="@id/tv_hot_loc"
+                android:id="@+id/tv_ETA_time"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
